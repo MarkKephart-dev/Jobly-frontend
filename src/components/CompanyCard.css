@@ -1,0 +1,29 @@
+.company-card {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+    transition: transform 0.2s ease;
+}
+
+.company-card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.company-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-card-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.company-card:hover {
+    transform: translateY(-4px);
+}

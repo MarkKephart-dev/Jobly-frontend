@@ -1,0 +1,10 @@
+.company-detail {
+    padding: 2rem;
+}
+
+.company-detail img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+  

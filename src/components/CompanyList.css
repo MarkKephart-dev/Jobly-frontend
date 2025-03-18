@@ -1,0 +1,48 @@
+.company-list {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%; 
+    max-width: 600px;
+  }
+
+.company-search {
+    flex-grow: 1;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box; /* Keeps width consistent with padding */
+    min-width: 0;
+}
+
+.company-search-button {
+    padding: 0.75rem 1rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.company-search-button:hover {
+    background-color: darkblue;
+}
+
+@media (max-width: 768px) {
+    .company-list {
+      padding: 1rem;
+    }
+  
+    form {
+      width: 100%;
+    }
+}

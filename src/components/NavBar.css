@@ -1,0 +1,75 @@
+/* NavBar.css */
+
+/* General styling for the navbar */
+nav {
+    background-color: #1a1a1a;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    max-width: 1300px;
+    margin: 0 auto;
+    z-index: 1000;
+  }
+  
+  /* Logo or left side */
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin-right: auto;
+  }
+  
+  /* Container for links */
+  .navbar-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  /* Styling for individual links */
+  .navbar-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem;
+    transition: color 0.3s ease;
+    border-bottom: 2px solid transparent;
+  }
+  
+  /* Hover effect */
+  .navbar-links a:hover {
+    color: #00bfff;
+    border-bottom: 2px solid #00bfff;
+  }
+  
+  /* Mobile-friendly adjustments */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .navbar-links a {
+      padding: 0.75rem 0;
+      font-size: 1.2rem;
+    }
+  }
+
+  body {
+    padding-top: 60px; /* Adjust this based on the navbar height */
+  }
+  
